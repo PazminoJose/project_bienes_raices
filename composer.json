@@ -1,0 +1,22 @@
+{
+    "name": "bluebird/bienesraices_inicio",
+    "description": "Venta de bienes raices",
+    "authors": [
+        {
+            "name": "Jose",
+            "email": "pepe.paz0399@hotmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\":"./models",
+            "MVC\\":"./",
+            "Controllers\\":"./controllers"
+        }
+    }
+}
