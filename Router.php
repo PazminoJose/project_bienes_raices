@@ -26,7 +26,7 @@ class Router
             '/vendedores/crear', '/vendedores/actualizar', '/vendedores/eliminar'
         ];
 
-        $urlActual = $_SERVER['REQUEST_URI'] === '' ? '/' : $_SERVER['REQUEST_URI'];
+        $urlActual = $_SERVER['PATH_INFO'] === '' ? '/' : $_SERVER['PATH_INFO'];
 
         $metodo = $_SERVER['REQUEST_METHOD'];
 
