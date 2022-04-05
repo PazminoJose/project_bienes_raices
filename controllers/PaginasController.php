@@ -73,7 +73,7 @@ class PaginasController
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 
             // Configurar contenido del email
-            $mail->setFrom('admin@bienesraices.com', 'Admin');
+            $mail->setFrom('pepe.paz0399@hotmail.com', 'Admin');
             $mail->addAddress('admin@bienesraices.com', 'BienesRaices.com');
             $mail->Subject = 'Tienes un nuevo mensaje';
 
