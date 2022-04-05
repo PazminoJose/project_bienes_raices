@@ -74,7 +74,7 @@ class PaginasController
 
             // Configurar contenido del email
             $mail->setFrom('pepe.paz0399@hotmail.com', 'Admin');
-            $mail->addAddress('admin@bienesraices.com', 'BienesRaices.com');
+            $mail->addAddress('pepe.paz0399@hotmail.com', 'BienesRaices.com');
             $mail->Subject = 'Tienes un nuevo mensaje';
 
             // Habilitar html
