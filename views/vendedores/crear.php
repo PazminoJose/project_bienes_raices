@@ -11,6 +11,6 @@
 
     <form  method="POST" enctype="multipart/form-data" class="formulario">
         <?php include __DIR__ . '/formulario.php'; ?>
-        <input type="submit" value="Crear Propiedad" class="boton boton-verde">
+        <input type="submit" value="Crear Vendedor" class="boton boton-verde">
     </form>
 </main>
