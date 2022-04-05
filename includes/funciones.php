@@ -69,7 +69,7 @@ function mostrarNotificacion($codigo): string|bool
 function validarIdORedireccionar($url): int
 {
 
-    $id = ($_POST['id'] || $_GET['id']) ? $_POST['id'] ?? $_GET['id'] : '';
+    $id = (isset($_POST['id']) || isset($_GET['id'])) ? $_POST['id'] ?? $_GET['id'] : '';
 
 
     $id = filter_var($id, FILTER_VALIDATE_INT);
